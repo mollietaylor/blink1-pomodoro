@@ -1,6 +1,6 @@
 Install and Run
 ---------------
-You'll need to change the blink_path variable in the .sh files to your path.
+Change the blink_path variable in the .sh files to your path.
 
 Then cd to where you saved the .sh file(s) and
 
@@ -20,3 +20,4 @@ The pomodoro.sh begins the pomodoro when you run the script. There are variables
 To Do
 -----
 tomatoes.sh: have it blink a few times at the beginning of each tomato and break
+

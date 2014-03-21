@@ -7,7 +7,6 @@ tomato_color="255,0,0"
 
 break_color="0,255,0"
 
-# light blink(1)
 while true; do
 	minute=$(date +"%M")
 	minute=`echo $minute|sed 's/^0*//'`
