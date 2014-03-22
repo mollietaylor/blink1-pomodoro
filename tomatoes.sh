@@ -36,6 +36,6 @@ while true; do
 			$blink_path --rgb $break_color --blink 4 > /dev/null 2>&1
 			$blink_path --rgb $break_color > /dev/null 2>&1
 		fi
+		sleep 5 # loop runs every 5 seconds
 	fi
-	sleep 5 # loop runs every 5 seconds
 done
