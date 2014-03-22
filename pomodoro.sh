@@ -7,9 +7,9 @@ pomodoro_color="255,0,0"
 
 break_color="0,255,0"
 
-pomodoro_length=1 # length of tomato in minutes
+pomodoro_length=25 # length of tomato in minutes
 
-break_length=1 # length of break in minutes
+break_length=5 # length of break in minutes
 
 let pomodoro_secs=$pomodoro_length*60
 let break_secs=$break_length*60

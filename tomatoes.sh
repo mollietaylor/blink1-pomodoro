@@ -23,7 +23,7 @@ while true; do
 	minute=`echo $minute|sed 's/^0*//'`
 	second=$(date +"%S")
 	second=`echo $second|sed 's/^0*//'`
-	if [[ "$second" -eq 0 ]]
+	if [[ "$second" -lt 5 ]]
 	then
 		if [[ "$minute" -eq 0 || "$minute" -eq 30 ]]
 		then
@@ -38,4 +38,5 @@ while true; do
 		fi
 		sleep 5 # loop runs every 5 seconds
 	fi
+	sleep 5 # loop runs every 5 seconds
 done
