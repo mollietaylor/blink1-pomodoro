@@ -1,7 +1,7 @@
 #!/bin/bash
 # makes blink(1) turn red for $pomodoro_length minutes and then green for $break_length minutes
 
-blink_path=".././blink1-tool"
+blink_path="`which blink1-tool`"
 
 pomodoro_color="255,0,0"
 
