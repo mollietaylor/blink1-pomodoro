@@ -17,6 +17,13 @@ let total_length=$pomodoro_length+$break_length
 
 pomodoro=0
 
+trap ctrl_c INT
+
+function ctrl_c() {
+	$blink_path --off
+	exit 0
+}
+
 while true; do
 	echo "$pomodoro_secs"
 	let pomodoro+=1
